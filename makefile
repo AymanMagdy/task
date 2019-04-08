@@ -5,4 +5,4 @@ README.md:
 	echo "\nNumber of lines in script : $(shell cat guessinggame.sh | wc -l)" >> README.md
 
 clean:
-	rm README.md
+	make -f README.mk
