@@ -4,7 +4,7 @@ function guess(){
     y="$(ls -1 | wc -l)"
 
     while true;
-    do
+    do 
         echo "pleas enter your guess"
         read  number
         if [ $number -lt $y ]
